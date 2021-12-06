@@ -137,10 +137,20 @@
   }
   
   .About > p {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 200;
     font-style: italic;
     color: var(--main-red);
+  }
+  /* added differnet font size for mobile view  */
+  @media (max-width: 28.75em){
+    .About > p {
+      font-size: 6vw;
+      /* font-weight: 200; */
+      /* font-style: italic; */
+      /* color: var(--main-red); */
+      /* color: yellow; */
+    } 
   }
   
   
